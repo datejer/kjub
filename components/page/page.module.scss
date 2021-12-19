@@ -1,0 +1,47 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+
+  .left {
+    flex: 5;
+  }
+
+  .right {
+    flex: 8;
+    height: 100%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    max-width: 500px;
+    margin-left: auto;
+    user-select: none;
+
+    h1 {
+      font-size: 4rem;
+      margin: 0;
+      font-weight: 900;
+      line-height: 3rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin: 1rem 0 0 0;
+      font-weight: 100;
+      line-height: 1.5rem;
+      letter-spacing: 2px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin: 1rem 0 0 0;
+      font-weight: 300;
+      text-align: justify;
+    }
+  }
+}
